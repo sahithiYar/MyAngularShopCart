@@ -1,0 +1,8 @@
+<p>
+  <button *ngIf="alertProduct.price > 600" (click)="avialNotify.emit()" >Noyify Me for {{alertProdName}} </button>
+  Likes  {{likes}}
+</p>
+<h4>Change log:</h4>
+    <ul>
+      <li *ngFor="let change of changeLog">{{change}}</li>
+    </ul>
